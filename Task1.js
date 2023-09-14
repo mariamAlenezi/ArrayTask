@@ -47,7 +47,6 @@ function CheckBanana(myArray) {
     //    console.log(myArray.includes("banana"));
     console.log(true);
   } else console.log(false);
-  //myArray.includes("banana");
 }
 
 CheckBanana(myArray);
