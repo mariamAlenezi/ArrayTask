@@ -1,5 +1,12 @@
-//Q1 +Q2
-const myArray = ["apple", "banana", "cherry"];
+//Q1
+const myArray = [];
+
+//Q2
+myArray.push("apple");
+myArray.push("banana");
+myArray.push("cherry");
+console.log(myArray);
+
 //Q3
 console.log(myArray[0]);
 
@@ -15,7 +22,7 @@ console.log(myArray);
 
 //Q7
 const numbers = [5, 10, 15, 20, 25];
-numbers.splice(1, 1);
+numbers.splice(2, 1);
 console.log(numbers);
 
 //Q8
@@ -38,8 +45,8 @@ getMax(temperatures);
 function CheckBanana(myArray) {
   if (myArray.includes("banana") === true) {
     //    console.log(myArray.includes("banana"));
-    console.log("true");
-  } else console.log("false");
+    console.log(true);
+  } else console.log(false);
   //myArray.includes("banana");
 }
 
