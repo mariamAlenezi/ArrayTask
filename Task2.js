@@ -11,8 +11,8 @@
 */
 function isArrayLengthOdd(numbers) {
   if (numbers.length % 2 === 1) {
-    console.log("true");
-  } else console.log("false");
+    console.log(true);
+  } else console.log(false);
 }
 
 isArrayLengthOdd([1, 2, 3, 4, 5, 6]);
@@ -31,8 +31,8 @@ isArrayLengthOdd([1, 2, 3, 4, 5, 6]);
 function isArrayLengthEven(numbers) {
   // Your code here
   if (numbers.length % 2 === 0) {
-    console.log("true");
-  } else console.log("false");
+    console.log(true);
+  } else console.log(false);
 }
 
 isArrayLengthEven([1, 2, 3, 4, 5, 6]);

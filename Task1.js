@@ -20,7 +20,7 @@ console.log(myArray);
 myArray.pop();
 console.log(myArray);
 
-//Q7
+//Q7 // delete the index 2 (number 15)
 const numbers = [5, 10, 15, 20, 25];
 numbers.splice(2, 1);
 console.log(numbers);
