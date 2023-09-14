@@ -26,12 +26,21 @@ function getLength(numbers) {
 getLength(numbers);
 
 //Q9
-const temperatures = [72, 68, 74, 80, 76];
-
+let temperatures = [72, 68, 74, 80, 76];
 function getMax(temperatures) {
-  if (temperatures[0] > temperatures[1]) {
-    console.log(temperatures[0]);
-  } else console.log[1];
+  console.log(Math.max(...temperatures));
 }
 
 getMax(temperatures);
+
+// 10
+
+function CheckBanana(myArray) {
+  if (myArray.includes("banana") === true) {
+    //    console.log(myArray.includes("banana"));
+    console.log("true");
+  } else console.log("false");
+  //myArray.includes("banana");
+}
+
+CheckBanana(myArray);
